@@ -1,0 +1,50 @@
+.navbarlogo {
+    width: 30%;
+}
+
+.hersection {
+    height: 100vh;
+}
+
+/* 
+.herosectionimg{
+    width: 80%;
+} */
+
+.herosectionimg__cont {
+    width: 70%;
+}
+
+.herosectionimg {
+    border-radius: 10px;
+}
+
+.uppercurve {
+    background: linear-gradient(#A642F6, #5c01a282, #5D05A3)!important;
+    clip-path: ellipse(81% 90% at 100% 0%);
+}
+
+.pattern {
+    position: absolute;
+}
+/* 
+.roomimg {
+    border-radius: 10px;
+    width: 95%;
+} */
+
+.messimg{
+    /* width: 40%; */
+    border-radius: 10px;
+}
+
+.laundry-list{
+    list-style-image: url("../../images/bullets.svg");
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .dotransparent{
+        background-color: transparent;
+    }
+}

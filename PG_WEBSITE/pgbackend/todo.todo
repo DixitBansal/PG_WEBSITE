@@ -1,0 +1,10 @@
+- apis
+    1. get user profile api - return the profile of the user with the help of jwt token - get - /profile
+    2. 
+
+- frontend
+    1. admin dashboard 
+        profile display and logout button
+        news post form 
+        news update modal
+        news list section

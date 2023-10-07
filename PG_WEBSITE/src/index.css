@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Roboto', 'sans-serif';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+
+
+  body {
+    @apply bg-[#F5F5F5]
+  }
+
+  .mainheading {
+    @apply text-mainheading-size font-extrabold
+  }
+
+  .heading {
+    @apply text-heading-size font-extrabold
+  }
+
+  .subheading {
+    @apply text-subheading-size font-bold
+  }
+
+  .subtitle {
+    @apply text-subtitle-size
+  }
+
+  .custom-shape-divider-top-1692033952 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1692033952 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 167px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-top-1692033952 .shape-fill {
+    fill: #FFFFFF;
+  }
+
+  .carrer-bg {
+    @apply bg-gradient-to-r from-[#BC87E7] to-[#420369]
+  }
+
+
+  /*gradient*/
+  .backgroundgradient {
+    background: linear-gradient(to right, #f7f1fc, #ffffff7d, #f7f1fc)
+  }
+
+  .container {
+    @apply flex w-[1024px] mr-auto ml-auto
+  }
+
+  /* buttons */
+  .navbutton {
+    @apply bg-opacity-0 text-base-white w-[6.70rem] p-2 font-bold;
+    /* transition: all; */
+    transition-property: all;
+    transition-duration: 500ms;
+    border-radius: 3px;
+  }
+
+  .navbutton:hover {
+    /* background: linear-gradient(#F9F2FF, #ffffff7d, #F9F2FF); */
+    @apply text-dark-primary
+  }
+
+}
